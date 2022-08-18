@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **Generation and Perception using Deep Learning**
 
-- 📫 How to reach me **luzeyu@pjlab.org.cn / leo1037987031@gmail.com**
+- 📫 How to reach meL: **luzeyu@pjlab.org.cn / leo1037987031@gmail.com**
 
 - ⚡ **I like ACG(animation, comic and game). I want to help artists, painters and designers with deep learning. If you have any interesting ideas, please contact me.**
 
