@@ -10,3 +10,5 @@
 - ⚡ **I like ACG(animation, comic and game). I want to help artists, painters and designers with deep learning. If you have any interesting ideas, please contact me.**
 
 
+ <!-- waka-box start -->
+ <!-- waka-box end -->
