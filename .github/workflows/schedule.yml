@@ -13,8 +13,8 @@ jobs:
     name: Update-waka-stats
     runs-on: ubuntu-latest
     env:
-      WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      WAKATIME_API_KEY: b5b4f4bc-bc29-4522-9888-af8e8b76756e
+      GH_TOKEN: b5b4f4bc-bc29-4522-9888-af8e8b76756e
       UPDATE_OPTION: GIST_AND_MARKDOWN
       MARKDOWN_FILE: README.md
       GIST_ID: a4b8935b1db5a0aaef1a7d24630beade
