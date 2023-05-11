@@ -3,7 +3,7 @@
 <img src="https://komarev.com/ghpvc/?username=whlzy&label=Profile%20views&color=0e75b6&style=flat" alt="whlzy" />
 <img align="right" width="53%" src="https://github-readme-stats.vercel.app/api?username=whlzy&show_icons=true">
 
-- 🔭 I’m currently working on **Generation and Perception using Deep Learning**
+- 🔭 I’m currently working on **AIGC and ROBOTs Model using Deep Learning**
 
 - 📫 How to reach me: **luzeyu@pjlab.org.cn or leo1037987031@gmail.com**
 
