@@ -3,9 +3,11 @@
 <img src="https://komarev.com/ghpvc/?username=whlzy&label=Profile%20views&color=0e75b6&style=flat" alt="whlzy" />
 <img align="right" width="53%" src="https://github-readme-stats.vercel.app/api?username=whlzy&show_icons=true">
 
-- 🔭 I’m currently working on **AIGC, AI4SCI and ROBOTs Model using Deep Learning**
+- 🔭 I’m currently working on **AIGC** and training some interesting **transformers**.
 
-- 📫 How to reach me: **leo1037987031@gmail.com or luzeyu@pjlab.org.cn**
+- 🌠 Currently, the maximum model size I have trained from scratch is **3B**, using **128 A100 GPUs**. Looking forward to the opportunity to use more GPUs to train larger models in the future!
+
+- 📫 How to reach me: **leo1037987031@gmail.com**
 
 - ⚡ **I like ACG(animation, comic and game). I want to help artists, painters and designers with deep learning. If you have any interesting ideas, please contact me.**
 
