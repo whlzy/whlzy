@@ -3,7 +3,7 @@
 <img src="https://komarev.com/ghpvc/?username=whlzy&label=Profile%20views&color=0e75b6&style=flat" alt="whlzy" />
 <img align="right" width="53%" src="https://github-readme-stats.vercel.app/api?username=whlzy&show_icons=true">
 
-- 🔭 I’m now climbing the mountain: **Bring humanity's infinite imagination into reality.**.
+- 🔭 I’m now climbing the mountain: **Bring humanity's infinite imagination into reality.**
 
 - 🌄 I like training some interesting **transformers**.
 
