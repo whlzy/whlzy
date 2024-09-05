@@ -2,8 +2,9 @@
 
 <img src="https://komarev.com/ghpvc/?username=whlzy&label=Profile%20views&color=0e75b6&style=flat" alt="whlzy" />
 <img align="right" width="53%" src="https://github-readme-stats.vercel.app/api?username=whlzy&show_icons=true">
+- 🔭 I’m now climbing the mountain: **Bring humanity's infinite imagination into reality.**.
 
-- 🔭 I’m currently working on **AIGC** and training some interesting **transformers**.
+- 🌄 I like training some interesting **transformers**.
 
 - 🌠 Currently, the maximum model size I have trained from scratch is **3B**, using **128 A100 GPUs**. Looking forward to the opportunity to use more GPUs to train larger models in the future!
 
