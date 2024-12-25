@@ -18,9 +18,8 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other      10 hrs 50 mins  ███████████████░░░░░░░░░░   60.05 %
-Markdown   7 hrs 12 mins   ██████████░░░░░░░░░░░░░░░   39.90 %
-Python     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+Other      11 hrs 59 mins  █████████████████▓░░░░░░░   70.01 %
+Markdown   5 hrs 8 mins    ███████▒░░░░░░░░░░░░░░░░░   29.99 %
 ```
 
 <!--END_SECTION:waka-->
