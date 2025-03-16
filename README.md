@@ -18,11 +18,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other              23 hrs 25 mins  ████████████▒░░░░░░░░░░░░   49.75 %
-Python             20 hrs 51 mins  ███████████░░░░░░░░░░░░░░   44.29 %
-Markdown           2 hrs 19 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   04.95 %
-JSON               26 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.93 %
-Jupyter Notebook   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
+Other              25 hrs 18 mins  ████████████▓░░░░░░░░░░░░   50.57 %
+Python             21 hrs 43 mins  ███████████░░░░░░░░░░░░░░   43.41 %
+Markdown           2 hrs 31 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.04 %
+JSON               26 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.87 %
+Jupyter Notebook   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
 ```
 
 <!--END_SECTION:waka-->
