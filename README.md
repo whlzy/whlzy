@@ -18,7 +18,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Markdown   57 mins         ████████████████████░░░░░   80.28 %
+TOML       12 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.77 %
+Text       2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.77 %
+Other      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 %
+Python     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
 <!--END_SECTION:waka-->
