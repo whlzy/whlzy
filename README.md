@@ -18,11 +18,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other        4 hrs 22 mins   ████████████████████▒░░░░   81.14 %
-JSON         43 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.49 %
-Markdown     11 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.50 %
-JavaScript   4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.53 %
-TypeScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.29 %
+Markdown   0 secs          █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
