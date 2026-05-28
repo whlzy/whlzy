@@ -919,7 +919,6 @@ function updateReadme(summary) {
     "",
     markdownTable(summary),
     "",
-    `<sub>Updated ${summary.generatedAt}. Full normalized data: [data/token-usage.json](./data/token-usage.json).</sub>`,
     end
   ].join("\n");
   const next = current.includes(start) && current.includes(end)

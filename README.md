@@ -32,5 +32,4 @@ No activity tracked
 | Claude | 404.1M | 0 | 0 | claude-opus-4-5, claude-opus-4-6, gemini-3-pro-high | 2026-04-23 |
 | Vertex AI | 3.0M | 0 | 0 | claude-opus-4-5, claude-sonnet-4-5, claude-opus-4-6 | 2026-02-11 |
 
-<sub>Updated 2026-05-28T11:55:41.077Z. Full normalized data: [data/token-usage.json](./data/token-usage.json).</sub>
 <!-- TOKEN_USAGE_END -->
