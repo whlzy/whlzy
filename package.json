@@ -1,0 +1,14 @@
+{
+  "name": "github-token-page",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-token-usage.mjs",
+    "generate:refresh": "node scripts/generate-token-usage.mjs --refresh",
+    "check": "node scripts/generate-token-usage.mjs --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
