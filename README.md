@@ -17,7 +17,7 @@
 
 | Tool | All-time tokens | 30d | 7d | Top models | Last seen |
 | --- | ---: | ---: | ---: | --- | --- |
-| Codex | 11.59B | 5.37B | 1.47B | gpt-5.5, gpt-5.4, gpt-5.3-codex | 2026-05-28 |
+| Codex | 11.59B | 5.36B | 1.21B | gpt-5.5, gpt-5.4, gpt-5.3-codex | 2026-05-29 |
 | Claude | 404.1M | 0 | 0 | claude-opus-4-5, claude-opus-4-6, gemini-3-pro-high | 2026-04-23 |
 | Vertex AI | 3.0M | 0 | 0 | claude-opus-4-5, claude-sonnet-4-5, claude-opus-4-6 | 2026-02-11 |
 
