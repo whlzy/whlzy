@@ -78,20 +78,6 @@ jobs:
             exit 1
           fi
 
-      - name: Generate panel
-        run: npm run generate
-
-      - name: Commit changes
+      - name: Update panel if due
         shell: bash
-        run: |
-          git add README.md data/token-usage.json assets/token-usage.svg
-
-          if git diff --cached --quiet; then
-            echo "No token usage changes to commit."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update token usage panel"
-          git push
+        run: bash scripts/update-profile-if-due.sh

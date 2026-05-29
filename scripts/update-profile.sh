@@ -6,6 +6,8 @@ export PATH="/opt/homebrew/bin:/opt/homebrew/opt/nvm/versions/node/v23.9.0/bin:/
 cd "$(dirname "$0")/.."
 
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  git config user.name "github-actions[bot]"
+  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
   git pull --rebase --autostash
 fi
 
