@@ -684,30 +684,41 @@ function summarize(records) {
   };
 }
 
-function markdownTable(summary) {
-  const rows = summary.providers.filter((provider) => README_PROVIDERS.has(provider.provider)).map((provider) => {
-    return [
-      provider.label,
-      compactInt(provider.totalTokens),
-      compactInt(provider.last30Tokens),
-      compactInt(provider.last7Tokens),
-      provider.models.slice(0, 3).join(", ") || "-",
-      provider.lastSeen || "-"
-    ];
-  });
-  const table = [
-    "| Tool | All-time tokens | 30d | 7d | Top models | Last seen |",
-    "| --- | ---: | ---: | ---: | --- | --- |",
-    ...rows.map((row) => `| ${row.map(markdownCell).join(" | ")} |`)
-  ].join("\n");
-  return table;
+function htmlUsageTable(summary) {
+  const rows = summary.providers
+    .filter((provider) => README_PROVIDERS.has(provider.provider))
+    .map((provider) => `
+  <tr>
+    <td><strong>${escapeHtml(provider.label)}</strong></td>
+    <td align="right"><code>${compactInt(provider.totalTokens)}</code></td>
+    <td align="right"><code>${compactInt(provider.last30Tokens)}</code></td>
+    <td align="right"><code>${compactInt(provider.last7Tokens)}</code></td>
+    <td>${provider.models.slice(0, 3).map((model) => `<code>${escapeHtml(model)}</code>`).join(" ") || "-"}</td>
+    <td><code>${escapeHtml(provider.lastSeen || "-")}</code></td>
+  </tr>`).join("");
+
+  return `<table>
+  <thead>
+    <tr>
+      <th align="left">Tool</th>
+      <th align="right">All-time</th>
+      <th align="right">30d</th>
+      <th align="right">7d</th>
+      <th align="left">Top models</th>
+      <th align="left">Last seen</th>
+    </tr>
+  </thead>
+  <tbody>${rows}
+  </tbody>
+</table>`;
 }
 
-function markdownCell(value) {
+function escapeHtml(value) {
   return String(value)
-    .replaceAll("\\", "\\\\")
-    .replaceAll("|", "\\|")
-    .replaceAll("\n", " ");
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
 }
 
 function chartBarLayout(count, width) {
@@ -919,7 +930,7 @@ function updateReadme(summary) {
     "",
     "![AI token usage](./assets/token-usage.svg)",
     "",
-    markdownTable(summary),
+    htmlUsageTable(summary),
     "",
     end
   ].join("\n");

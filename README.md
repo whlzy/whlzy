@@ -13,9 +13,35 @@
 
 ![AI token usage](./assets/token-usage.svg)
 
-| Tool | All-time tokens | 30d | 7d | Top models | Last seen |
-| --- | ---: | ---: | ---: | --- | --- |
-| Codex | 11.84B | 5.62B | 1.47B | gpt-5.5, gpt-5.4, gpt-5.3-codex | 2026-05-29 |
-| Claude Code | 404.1M | 0 | 0 | claude-opus-4-5, claude-opus-4-6, gemini-3-pro-high | 2026-04-23 |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Tool</th>
+      <th align="right">All-time</th>
+      <th align="right">30d</th>
+      <th align="right">7d</th>
+      <th align="left">Top models</th>
+      <th align="left">Last seen</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><strong>Codex</strong></td>
+    <td align="right"><code>11.88B</code></td>
+    <td align="right"><code>5.65B</code></td>
+    <td align="right"><code>1.50B</code></td>
+    <td><code>gpt-5.5</code> <code>gpt-5.4</code> <code>gpt-5.3-codex</code></td>
+    <td><code>2026-05-29</code></td>
+  </tr>
+  <tr>
+    <td><strong>Claude Code</strong></td>
+    <td align="right"><code>404.1M</code></td>
+    <td align="right"><code>0</code></td>
+    <td align="right"><code>0</code></td>
+    <td><code>claude-opus-4-5</code> <code>claude-opus-4-6</code> <code>gemini-3-pro-high</code></td>
+    <td><code>2026-04-23</code></td>
+  </tr>
+  </tbody>
+</table>
 
 <!-- TOKEN_USAGE_END -->
