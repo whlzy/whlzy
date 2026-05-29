@@ -14,10 +14,12 @@ const DRY_RUN = process.argv.includes("--dry-run");
 
 const PROVIDER_LABELS = {
   codex: "Codex",
-  claude: "Claude",
+  claude: "Claude Code",
   vertexai: "Vertex AI",
   bedrock: "Bedrock"
 };
+
+const README_PROVIDERS = new Set(["codex", "claude"]);
 
 const PROVIDER_COLORS = {
   codex: "#38bdf8",
@@ -683,7 +685,7 @@ function summarize(records) {
 }
 
 function markdownTable(summary) {
-  const rows = summary.providers.map((provider) => {
+  const rows = summary.providers.filter((provider) => README_PROVIDERS.has(provider.provider)).map((provider) => {
     return [
       provider.label,
       compactInt(provider.totalTokens),
@@ -855,15 +857,14 @@ function svgCard(summary) {
   const baseHeight = 980;
   const crop = {
     left: 36,
-    top: 72,
+    top: 118,
     right: 48,
     bottom: 24
   };
   const width = baseWidth - crop.left - crop.right;
   const height = baseHeight - crop.top - crop.bottom;
-  const updated = summary.generatedAt.replace("T", " ").slice(0, 16) + " UTC";
   const chartX = 150;
-  const chartY = 225;
+  const chartY = 145;
   const chartWidth = 1798;
   const chartHeight = 610;
   const maxTokens = Math.max(1, ...summary.days.map((day) => day.totalTokens));
@@ -885,7 +886,6 @@ function svgCard(summary) {
     .icon { fill: #606773; }
   </style>
   <rect x="${crop.left}" y="${crop.top}" width="${width}" height="${height}" fill="#ffffff"/>
-  <text x="58" y="116" class="title">Token Usage</text>
 
   <g transform="translate(${chartX}, ${chartY})">
     ${yAxisLabels(maxTokens, chartHeight, chartWidth)}
@@ -894,7 +894,7 @@ function svgCard(summary) {
     </g>
     ${rankingAxis(summary, chartWidth, chartHeight)}
   </g>
-  <g transform="translate(150, 908)">
+  <g transform="translate(150, 828)">
     ${rankingLegend(summary)}
   </g>
 </svg>
@@ -915,6 +915,8 @@ function updateReadme(summary) {
   const current = fs.existsSync(README_PATH) ? fs.readFileSync(README_PATH, "utf8") : `${start}\n${end}\n`;
   const block = [
     start,
+    "## Token Usage",
+    "",
     "![AI token usage](./assets/token-usage.svg)",
     "",
     markdownTable(summary),
