@@ -27,9 +27,9 @@
   <tbody>
   <tr>
     <td><strong>Codex</strong></td>
-    <td align="right"><code>11.88B</code></td>
-    <td align="right"><code>5.65B</code></td>
-    <td align="right"><code>1.50B</code></td>
+    <td align="right"><code>11.99B</code></td>
+    <td align="right"><code>5.76B</code></td>
+    <td align="right"><code>1.61B</code></td>
     <td><code>gpt-5.5</code> <code>gpt-5.4</code> <code>gpt-5.3-codex</code></td>
     <td><code>2026-05-29</code></td>
   </tr>
