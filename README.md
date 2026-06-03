@@ -27,11 +27,11 @@
   <tbody>
   <tr>
     <td><strong>Codex</strong></td>
-    <td align="right"><code>12.02B</code></td>
-    <td align="right"><code>5.79B</code></td>
-    <td align="right"><code>957.0M</code></td>
+    <td align="right"><code>12.04B</code></td>
+    <td align="right"><code>5.81B</code></td>
+    <td align="right"><code>748.8M</code></td>
     <td><code>gpt-5.5</code> <code>gpt-5.4</code> <code>gpt-5.3-codex</code></td>
-    <td><code>2026-06-01</code></td>
+    <td><code>2026-06-02</code></td>
   </tr>
   <tr>
     <td><strong>Claude Code</strong></td>
