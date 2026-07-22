@@ -948,19 +948,12 @@ function main() {
   const { dailyRecords, minuteRecords } = aggregateEvents(usageEvents);
   const summary = summarize(dailyRecords);
   summary.dailyRecords = dailyRecords;
-  summary.minuteRecords = minuteRecords;
   summary.eventCount = usageEvents.length;
   const payload = {
     ...summary,
     grain: {
-      events: "individual token usage event",
-      minuteRecords: "minute/provider/tool/model aggregate",
       dailyRecords: "day/provider/tool/model aggregate"
-    },
-    usageEvents,
-    minuteRecords,
-    dailyRecords,
-    records: dailyRecords
+    }
   };
 
   writeFileIfChanged(DATA_PATH, `${JSON.stringify(payload, null, 2)}\n`);

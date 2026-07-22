@@ -69,9 +69,9 @@ The catch-up script records the last successful local date in `~/.local/state/to
 - Codex and Claude are collected directly from local JSONL logs. CodexBar is not required.
 - The normalized data keeps both `provider` and `tool`, so the profile can distinguish services from collection sources.
 
-## Alternative: GitHub Actions with a self-hosted Mac runner
+## Manual fallback: GitHub Actions with a self-hosted Mac runner
 
-The included `.github/workflows/update-token-usage.yml` runs daily at 09:10 Asia/Shanghai time and can also be started manually from the Actions tab.
+The included `.github/workflows/update-token-usage.yml` can be started manually from the Actions tab. Do not enable its `schedule` while the launchd job is active; using one scheduler avoids concurrent checkouts and pushes.
 
 Use a self-hosted macOS runner if you want GitHub Actions to update the panel, because the workflow must run as a local user that can read your AI tool logs:
 
@@ -83,6 +83,8 @@ Use a self-hosted macOS runner if you want GitHub Actions to update the panel, b
 - `~/.config/claude/projects`
 
 The workflow has a preflight check for local `.jsonl` logs and exits before generating or committing if the runner cannot see them. Install and run the self-hosted runner as the same macOS user that uses Codex and Claude.
+
+If the Mac reaches GitHub through a local proxy, put lowercase `http_proxy`, `https_proxy`, and `no_proxy` entries in the runner application's `.env` file, then restart the runner service.
 
 If your logs live somewhere else, set repository variables in GitHub:
 

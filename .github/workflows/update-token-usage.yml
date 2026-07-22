@@ -2,9 +2,10 @@ name: Update token usage panel
 
 on:
   workflow_dispatch:
-  schedule:
-    # GitHub Actions cron is UTC. This is 09:10 in Asia/Shanghai.
-    - cron: "10 1 * * *"
+
+# Daily updates are scheduled by launchd on the Mac that owns the local usage
+# logs. Keep this workflow as a manual fallback only so two schedulers cannot
+# modify the same profile repository at the same time.
 
 permissions:
   contents: write
