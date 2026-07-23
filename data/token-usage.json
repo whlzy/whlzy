@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-07-22T06:07:05.927Z",
+  "generatedAt": "2026-07-23T04:53:58.649Z",
   "range": {
     "firstDay": "2025-12-24",
     "lastDay": "2026-07-22"
   },
   "totals": {
-    "inputTokens": 12431557350,
-    "cacheReadTokens": 11579535222,
+    "inputTokens": 12434676337,
+    "cacheReadTokens": 11582600310,
     "cacheCreationTokens": 0,
-    "cachedTokens": 11579535222,
-    "outputTokens": 60900392,
-    "totalTokens": 12897857449,
+    "cachedTokens": 11582600310,
+    "outputTokens": 60905778,
+    "totalTokens": 12900981822,
     "costUSD": 0,
-    "requestCount": 114321,
-    "last7Tokens": 154478595,
-    "last30Tokens": 435526183
+    "requestCount": 114344,
+    "last7Tokens": 7738936,
+    "last30Tokens": 438650556
   },
   "providers": [
     {
       "provider": "codex",
       "label": "Codex",
-      "totalTokens": 12490746609,
-      "last7Tokens": 154478595,
-      "last30Tokens": 435526183,
+      "totalTokens": 12493870982,
+      "last7Tokens": 7738936,
+      "last30Tokens": 438650556,
       "costUSD": 0,
-      "requestCount": 114093,
+      "requestCount": 114116,
       "firstSeen": "2025-12-24",
       "lastSeen": "2026-07-22",
       "models": [
@@ -930,7 +930,7 @@
     },
     {
       "date": "2026-07-22",
-      "totalTokens": 4614563
+      "totalTokens": 7738936
     }
   ],
   "models": [
@@ -957,7 +957,7 @@
     {
       "provider": "codex",
       "model": "gpt-5.6-sol",
-      "totalTokens": 366005201
+      "totalTokens": 369129574
     },
     {
       "provider": "claude",
@@ -4723,17 +4723,17 @@
       "provider": "codex",
       "tool": "codex-cli",
       "model": "gpt-5.6-sol",
-      "inputTokens": 4594111,
-      "cacheReadTokens": 4398336,
+      "inputTokens": 7713098,
+      "cacheReadTokens": 7463424,
       "cacheCreationTokens": 0,
-      "cachedTokens": 4398336,
-      "outputTokens": 20452,
-      "totalTokens": 4614563,
+      "cachedTokens": 7463424,
+      "outputTokens": 25838,
+      "totalTokens": 7738936,
       "costUSD": 0,
-      "requestCount": 51
+      "requestCount": 74
     }
   ],
-  "eventCount": 114409,
+  "eventCount": 114432,
   "grain": {
     "dailyRecords": "day/provider/tool/model aggregate"
   }
