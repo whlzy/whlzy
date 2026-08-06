@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-08-05T01:19:58.948Z",
+  "generatedAt": "2026-08-06T01:57:27.011Z",
   "range": {
     "firstDay": "2025-12-24",
-    "lastDay": "2026-08-04"
+    "lastDay": "2026-08-05"
   },
   "totals": {
-    "inputTokens": 12554528489,
-    "cacheReadTokens": 11696504438,
+    "inputTokens": 12558358787,
+    "cacheReadTokens": 11700021622,
     "cacheCreationTokens": 0,
-    "cachedTokens": 11696504438,
-    "outputTokens": 61283213,
-    "totalTokens": 13021211409,
+    "cachedTokens": 11700021622,
+    "outputTokens": 61325752,
+    "totalTokens": 13025084246,
     "costUSD": 0,
-    "requestCount": 115339,
-    "last7Tokens": 64438800,
-    "last30Tokens": 507718711
+    "requestCount": 115408,
+    "last7Tokens": 27049451,
+    "last30Tokens": 511591548
   },
   "providers": [
     {
       "provider": "codex",
       "label": "Codex",
-      "totalTokens": 12614100569,
-      "last7Tokens": 64438800,
-      "last30Tokens": 507718711,
+      "totalTokens": 12617973406,
+      "last7Tokens": 27049451,
+      "last30Tokens": 511591548,
       "costUSD": 0,
-      "requestCount": 115111,
+      "requestCount": 115180,
       "firstSeen": "2025-12-24",
-      "lastSeen": "2026-08-04",
+      "lastSeen": "2026-08-05",
       "models": [
         "gpt-5.5",
         "gpt-5.4",
@@ -983,6 +983,10 @@
     {
       "date": "2026-08-04",
       "totalTokens": 6393653
+    },
+    {
+      "date": "2026-08-05",
+      "totalTokens": 3872837
     }
   ],
   "models": [
@@ -1009,7 +1013,7 @@
     {
       "provider": "codex",
       "model": "gpt-5.6-sol",
-      "totalTokens": 489359161
+      "totalTokens": 493231998
     },
     {
       "provider": "claude",
@@ -4853,9 +4857,23 @@
       "totalTokens": 6393653,
       "costUSD": 0,
       "requestCount": 66
+    },
+    {
+      "date": "2026-08-05",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "inputTokens": 3830298,
+      "cacheReadTokens": 3517184,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 3517184,
+      "outputTokens": 42539,
+      "totalTokens": 3872837,
+      "costUSD": 0,
+      "requestCount": 69
     }
   ],
-  "eventCount": 115427,
+  "eventCount": 115496,
   "grain": {
     "dailyRecords": "day/provider/tool/model aggregate"
   }
