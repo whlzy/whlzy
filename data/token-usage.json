@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-08-12T03:01:21.249Z",
+  "generatedAt": "2026-08-13T01:17:01.346Z",
   "range": {
     "firstDay": "2025-12-24",
-    "lastDay": "2026-08-07"
+    "lastDay": "2026-08-12"
   },
   "totals": {
-    "inputTokens": 12559356003,
-    "cacheReadTokens": 11700907766,
+    "inputTokens": 12559920834,
+    "cacheReadTokens": 11701395446,
     "cacheCreationTokens": 0,
-    "cachedTokens": 11700907766,
-    "outputTokens": 61339968,
-    "totalTokens": 13026095678,
+    "cachedTokens": 11701395446,
+    "outputTokens": 61350543,
+    "totalTokens": 13026671084,
     "costUSD": 0,
-    "requestCount": 115442,
-    "last7Tokens": 1011432,
-    "last30Tokens": 284431333
+    "requestCount": 115461,
+    "last7Tokens": 1267649,
+    "last30Tokens": 285006739
   },
   "providers": [
     {
       "provider": "codex",
       "label": "Codex",
-      "totalTokens": 12618984838,
-      "last7Tokens": 1011432,
-      "last30Tokens": 284431333,
+      "totalTokens": 12619560244,
+      "last7Tokens": 1267649,
+      "last30Tokens": 285006739,
       "costUSD": 0,
-      "requestCount": 115214,
+      "requestCount": 115233,
       "firstSeen": "2025-12-24",
-      "lastSeen": "2026-08-07",
+      "lastSeen": "2026-08-12",
       "models": [
         "gpt-5.5",
         "gpt-5.4",
@@ -995,6 +995,26 @@
     {
       "date": "2026-08-07",
       "totalTokens": 692243
+    },
+    {
+      "date": "2026-08-08",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-08-09",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-08-10",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-08-11",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-08-12",
+      "totalTokens": 575406
     }
   ],
   "models": [
@@ -1021,7 +1041,7 @@
     {
       "provider": "codex",
       "model": "gpt-5.6-sol",
-      "totalTokens": 494226443
+      "totalTokens": 494801849
     },
     {
       "provider": "claude",
@@ -4921,9 +4941,23 @@
       "totalTokens": 692243,
       "costUSD": 0,
       "requestCount": 20
+    },
+    {
+      "date": "2026-08-12",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "inputTokens": 564831,
+      "cacheReadTokens": 487680,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 487680,
+      "outputTokens": 10575,
+      "totalTokens": 575406,
+      "costUSD": 0,
+      "requestCount": 19
     }
   ],
-  "eventCount": 115530,
+  "eventCount": 115549,
   "grain": {
     "dailyRecords": "day/provider/tool/model aggregate"
   }
