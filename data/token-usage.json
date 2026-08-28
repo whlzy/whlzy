@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-08-27T02:18:03.001Z",
+  "generatedAt": "2026-08-28T04:47:47.687Z",
   "range": {
     "firstDay": "2025-12-24",
-    "lastDay": "2026-08-24"
+    "lastDay": "2026-08-27"
   },
   "totals": {
-    "inputTokens": 12708018964,
-    "cacheReadTokens": 11846532598,
+    "inputTokens": 12708039993,
+    "cacheReadTokens": 11846539510,
     "cacheCreationTokens": 0,
-    "cachedTokens": 11846532598,
-    "outputTokens": 61592296,
-    "totalTokens": 13175010967,
+    "cachedTokens": 11846539510,
+    "outputTokens": 61592386,
+    "totalTokens": 13175032086,
     "costUSD": 0,
-    "requestCount": 116561,
-    "last7Tokens": 129265147,
-    "last30Tokens": 259763688
+    "requestCount": 116562,
+    "last7Tokens": 129286266,
+    "last30Tokens": 218259477
   },
   "providers": [
     {
       "provider": "codex",
       "label": "Codex",
-      "totalTokens": 12767900127,
-      "last7Tokens": 129265147,
-      "last30Tokens": 259763688,
+      "totalTokens": 12767921246,
+      "last7Tokens": 129286266,
+      "last30Tokens": 218259477,
       "costUSD": 0,
-      "requestCount": 116333,
+      "requestCount": 116334,
       "firstSeen": "2025-12-24",
-      "lastSeen": "2026-08-24",
+      "lastSeen": "2026-08-27",
       "models": [
         "gpt-5.5",
         "gpt-5.4",
@@ -1063,6 +1063,18 @@
     {
       "date": "2026-08-24",
       "totalTokens": 41035697
+    },
+    {
+      "date": "2026-08-25",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-08-26",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-08-27",
+      "totalTokens": 21119
     }
   ],
   "models": [
@@ -1084,7 +1096,7 @@
     {
       "provider": "codex",
       "model": "gpt-5.6-sol",
-      "totalTokens": 643141732
+      "totalTokens": 643162851
     },
     {
       "provider": "codex",
@@ -5059,9 +5071,23 @@
       "totalTokens": 41035697,
       "costUSD": 0,
       "requestCount": 240
+    },
+    {
+      "date": "2026-08-27",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "inputTokens": 21029,
+      "cacheReadTokens": 6912,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 6912,
+      "outputTokens": 90,
+      "totalTokens": 21119,
+      "costUSD": 0,
+      "requestCount": 1
     }
   ],
-  "eventCount": 116649,
+  "eventCount": 116650,
   "grain": {
     "dailyRecords": "day/provider/tool/model aggregate"
   }
