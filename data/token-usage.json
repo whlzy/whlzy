@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:00:40.114Z",
+  "generatedAt": "2026-09-13T05:19:45.550Z",
   "range": {
     "firstDay": "2025-12-24",
     "lastDay": "2026-09-09"
@@ -14,7 +14,7 @@
     "costUSD": 0,
     "requestCount": 117603,
     "last7Tokens": 637486,
-    "last30Tokens": 194700062
+    "last30Tokens": 189643091
   },
   "providers": [
     {
@@ -22,7 +22,7 @@
       "label": "Codex",
       "totalTokens": 12872372068,
       "last7Tokens": 637486,
-      "last30Tokens": 194700062,
+      "last30Tokens": 189643091,
       "costUSD": 0,
       "requestCount": 117375,
       "firstSeen": "2025-12-24",
