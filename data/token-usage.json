@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-09-20T01:33:25.040Z",
+  "generatedAt": "2026-09-21T01:21:07.332Z",
   "range": {
     "firstDay": "2025-12-24",
-    "lastDay": "2026-09-18"
+    "lastDay": "2026-09-20"
   },
   "totals": {
-    "inputTokens": 12812605219,
-    "cacheReadTokens": 11947226358,
+    "inputTokens": 12821286020,
+    "cacheReadTokens": 11955523190,
     "cacheCreationTokens": 0,
-    "cachedTokens": 11947226358,
-    "outputTokens": 62154537,
-    "totalTokens": 13280159463,
+    "cachedTokens": 11955523190,
+    "outputTokens": 62195109,
+    "totalTokens": 13288880836,
     "costUSD": 0,
-    "requestCount": 117621,
-    "last7Tokens": 676555,
-    "last30Tokens": 190319646
+    "requestCount": 117703,
+    "last7Tokens": 9397928,
+    "last30Tokens": 199041019
   },
   "providers": [
     {
       "provider": "codex",
       "label": "Codex",
-      "totalTokens": 12873048623,
-      "last7Tokens": 676555,
-      "last30Tokens": 190319646,
+      "totalTokens": 12881769996,
+      "last7Tokens": 9397928,
+      "last30Tokens": 199041019,
       "costUSD": 0,
-      "requestCount": 117393,
+      "requestCount": 117475,
       "firstSeen": "2025-12-24",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-20",
       "models": [
         "gpt-5.5",
         "gpt-5.4",
@@ -34,10 +34,10 @@
         "gpt-5.6-sol",
         "gpt-5.2-codex",
         "gpt-5.1-codex-mini",
+        "gpt-6-astra",
         "gpt-5.6-terra",
         "codex",
-        "gpt-5.1-codex-max",
-        "gpt-6-astra"
+        "gpt-5.1-codex-max"
       ],
       "tools": [
         "codex-api",
@@ -1164,6 +1164,14 @@
     {
       "date": "2026-09-18",
       "totalTokens": 405185
+    },
+    {
+      "date": "2026-09-19",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-09-20",
+      "totalTokens": 8721373
     }
   ],
   "models": [
@@ -1185,7 +1193,7 @@
     {
       "provider": "codex",
       "model": "gpt-5.6-sol",
-      "totalTokens": 570324883
+      "totalTokens": 570402069
     },
     {
       "provider": "codex",
@@ -1213,6 +1221,11 @@
       "totalTokens": 10329133
     },
     {
+      "provider": "codex",
+      "model": "gpt-6-astra",
+      "totalTokens": 9317832
+    },
+    {
       "provider": "claude",
       "model": "claude-sonnet-4-6",
       "totalTokens": 7872928
@@ -1220,7 +1233,7 @@
     {
       "provider": "codex",
       "model": "gpt-5.6-terra",
-      "totalTokens": 6523767
+      "totalTokens": 6548944
     },
     {
       "provider": "claude",
@@ -1256,11 +1269,6 @@
       "provider": "claude",
       "model": "claude-opus-4-7",
       "totalTokens": 1198102
-    },
-    {
-      "provider": "codex",
-      "model": "gpt-6-astra",
-      "totalTokens": 698822
     },
     {
       "provider": "vertexai",
@@ -5305,9 +5313,51 @@
       "totalTokens": 405185,
       "costUSD": 0,
       "requestCount": 10
+    },
+    {
+      "date": "2026-09-20",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "inputTokens": 76703,
+      "cacheReadTokens": 49920,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 49920,
+      "outputTokens": 483,
+      "totalTokens": 77186,
+      "costUSD": 0,
+      "requestCount": 3
+    },
+    {
+      "date": "2026-09-20",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-5.6-terra",
+      "inputTokens": 25072,
+      "cacheReadTokens": 0,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 0,
+      "outputTokens": 105,
+      "totalTokens": 25177,
+      "costUSD": 0,
+      "requestCount": 1
+    },
+    {
+      "date": "2026-09-20",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-6-astra",
+      "inputTokens": 8579026,
+      "cacheReadTokens": 8246912,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 8246912,
+      "outputTokens": 39984,
+      "totalTokens": 8619010,
+      "costUSD": 0,
+      "requestCount": 78
     }
   ],
-  "eventCount": 117709,
+  "eventCount": 117791,
   "grain": {
     "dailyRecords": "day/provider/tool/model aggregate"
   }
