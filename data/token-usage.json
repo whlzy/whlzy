@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-09-24T04:43:21.221Z",
+  "generatedAt": "2026-09-25T02:34:01.248Z",
   "range": {
     "firstDay": "2025-12-24",
-    "lastDay": "2026-09-21"
+    "lastDay": "2026-09-24"
   },
   "totals": {
-    "inputTokens": 12821613026,
-    "cacheReadTokens": 11955833718,
+    "inputTokens": 12824445398,
+    "cacheReadTokens": 11958390902,
     "cacheCreationTokens": 0,
-    "cachedTokens": 11955833718,
-    "outputTokens": 62197181,
-    "totalTokens": 13289209914,
+    "cachedTokens": 11958390902,
+    "outputTokens": 62215737,
+    "totalTokens": 13292060842,
     "costUSD": 0,
-    "requestCount": 117712,
-    "last7Tokens": 9455636,
-    "last30Tokens": 70104950
+    "requestCount": 117746,
+    "last7Tokens": 11901379,
+    "last30Tokens": 72955878
   },
   "providers": [
     {
       "provider": "codex",
       "label": "Codex",
-      "totalTokens": 12882099074,
-      "last7Tokens": 9455636,
-      "last30Tokens": 70104950,
+      "totalTokens": 12884950002,
+      "last7Tokens": 11901379,
+      "last30Tokens": 72955878,
       "costUSD": 0,
-      "requestCount": 117484,
+      "requestCount": 117518,
       "firstSeen": "2025-12-24",
-      "lastSeen": "2026-09-21",
+      "lastSeen": "2026-09-24",
       "models": [
         "gpt-5.5",
         "gpt-5.4",
@@ -37,6 +37,7 @@
         "gpt-6-astra",
         "gpt-5.6-terra",
         "codex",
+        "gpt-6-luna",
         "gpt-5.1-codex-max"
       ],
       "tools": [
@@ -1176,6 +1177,18 @@
     {
       "date": "2026-09-21",
       "totalTokens": 354255
+    },
+    {
+      "date": "2026-09-22",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-09-23",
+      "totalTokens": 0
+    },
+    {
+      "date": "2026-09-24",
+      "totalTokens": 2850928
     }
   ],
   "models": [
@@ -1248,6 +1261,11 @@
       "provider": "codex",
       "model": "codex",
       "totalTokens": 3935030
+    },
+    {
+      "provider": "codex",
+      "model": "gpt-6-luna",
+      "totalTokens": 2850928
     },
     {
       "provider": "vertexai",
@@ -5373,9 +5391,23 @@
       "totalTokens": 328466,
       "costUSD": 0,
       "requestCount": 9
+    },
+    {
+      "date": "2026-09-24",
+      "provider": "codex",
+      "tool": "codex-cli",
+      "model": "gpt-6-luna",
+      "inputTokens": 2832372,
+      "cacheReadTokens": 2557184,
+      "cacheCreationTokens": 0,
+      "cachedTokens": 2557184,
+      "outputTokens": 18556,
+      "totalTokens": 2850928,
+      "costUSD": 0,
+      "requestCount": 34
     }
   ],
-  "eventCount": 117800,
+  "eventCount": 117834,
   "grain": {
     "dailyRecords": "day/provider/tool/model aggregate"
   }
