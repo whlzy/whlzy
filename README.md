@@ -1,10 +1,10 @@
 ### Hi 👋, I'm Lu Zeyu
 
-<img src="https://komarev.com/ghpvc/?username=whlzy&label=Profile%20views&color=0e75b6&style=flat" alt="whlzy" />
-
 - 🌄 I like training interesting **transformers**.
 
-- 🌠 The maximum model size I have trained from scratch is **3B**, using **128 A100 GPUs**. Looking forward to the opportunity to use more GPUs to train larger models in the future!
+- 🌠 I'm currently exploring some exciting research directions in **pretraining science** at Tencent Hunyuan!
+
+- 📍 Previously, I interned at Shanghai AI Lab and SenseTime, where I learned how to train large-scale Transformer models.
 
 - 📫 How to reach me: **leo1037987031@gmail.com**
 
